@@ -27,5 +27,3 @@ def main(a):
     print(res_str)
     return res_str
 
-
-main(153)

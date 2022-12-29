@@ -11,4 +11,21 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    res_str =""
+    digits = {
+        1 : "one-digit",
+        2: "two-digit",
+        3: "three-digit"
+    }
+
+    res_str = digits[len(str(a))]
+
+    if a%2==1:
+        res_str+=" odd number"
+    else:
+        res_str+=" even number"
+    print(res_str)
+    return res_str
+
+
+main(153)

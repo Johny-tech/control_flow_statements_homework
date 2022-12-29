@@ -24,5 +24,9 @@ def main(a):
     else:
         res_str+=" odd number"
 
+    if a==0:
+        return "the number is zero"
+         
 
     return res_str
+print(main(0))
